@@ -1,0 +1,2 @@
+# CSharpKatas
+Coding exercices/katas
