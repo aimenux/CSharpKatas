@@ -39,10 +39,12 @@ namespace Tests
         [InlineData(new[] { 5, 5, 7 }, 0)]
         [InlineData(new[] { 5, 7, 7 }, 1)]
         [InlineData(new[] { 5, 5, 7, 7 }, 0)]
+        [InlineData(new[] { 5, 5, 7, 7, 7 }, 2)]
         [InlineData(new[] { 5, 7, 7, 5, 5, 5 }, 3)]
         [InlineData(new[] { 5, 7, 5, 5, 5, 5, 4 }, 2)]
         [InlineData(new[] { 1, 7, 1, 1, 7, 2, 2, 2, 7 }, 5)]
         [InlineData(new[] { 1, 0, 1, 1, 1, 0, 0, 1, 0, 0 }, 2)]
+        [InlineData(new[] { 0, 0, 0, 1, 1, 1, 0, 0, 0, 0 }, 6)]
         public void Should_Get_Valid_Index_For_Not_Empty_Array(int[] array, int expectedIndex)
         {
             // arrange
