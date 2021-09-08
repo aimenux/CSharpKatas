@@ -5,7 +5,7 @@
 Trying to solve some interview katas
 ```
 
-> In this repo, i m trying to give a solution for some interview katas :
+> In this repo, i m trying to solve some interview katas :
 >
 > :one: **Kata01** :  Find the starting index of the largest series of identical consecutive numbers
 >
