@@ -1,3 +1,5 @@
+[![.NET](https://github.com/aimenux/CSharpKatas/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/CSharpKatas/actions/workflows/ci.yml)
+
 # CSharpKatas
 ```
 Trying to solve some interview katas
